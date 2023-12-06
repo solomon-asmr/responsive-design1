@@ -1,0 +1,66 @@
+span{
+    font-size: 30px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+}
+.container{        
+    border: 2px solid black;   
+    background-color: wheat;
+}
+#picture{
+    margin: auto;
+    display: block;
+    justify-content: center;
+    border: 2px solid rgb(23, 101, 146);
+    width: fit-content;    
+}
+@media(max-width:480px) {    
+    #horse{
+        border: 2px solid black;        
+        border-radius: 20px;               
+        font-weight: 30px;
+        background-color: aqua;
+    }
+}
+@media (min-width:481px) and ( max-width:680px) {
+    
+    #motor{
+        border: 2px solid black;        
+        border-radius: 20px;
+        font-weight: 30px;
+        background-color: aqua;
+    }
+}
+@media ( min-width:681px) and (max-width:780px) {    
+    #car{
+        border: 2px solid black;        
+        border-radius: 20px;                
+        font-weight: 30px;
+        background-color: aqua;
+    }
+}
+@media (min-width:781px) {    
+    #jet{           
+        border: 2px solid black;
+        border-radius: 20px;             
+        font-weight: 30px;
+        background-color: aqua;
+    }
+}
+#first-line{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#art{
+    margin: 5%;
+}
+footer{
+    background-color: aquamarine;
+    border: 2px solid violet;
+    text-align: center;
+    margin-top: 10px;
+    
+}  

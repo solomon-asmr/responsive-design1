@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Responsive Design</title>
+    <script>
+        function styling(){
+            document.getElementById("intro").style.color="black";
+            document.getElementById("first-line").innerHTML="<b>The evolution of worlds transportation system</b>"
+        }
+    </script>
+</head>
+<body onload="styling()">
+    <div class="container">
+    <h1 id="first-line">Responsive Design with Html picture, css and js tag</h1>
+    <div id="picture">
+        <picture >
+            <source srcset="/static/img/horse-rider.png" media="(max-width:480px)">
+            <source srcset="/static/img/motor636.jpg" media="(max-width:680px)">
+            <source srcset="/static/img/car7.jpg"  media="(max-width:780px)">
+            <img src="/static/img/image_by_url.jpg" alt="" style="width: 790;">
+        </picture>
+    </div>
+    <div id="art">
+        <p id="intro">
+            The evolution of the world's transportation system from horse-drawn vehicles to 
+            airplanes has been a fascinating journey that has transformed the way people and 
+            goods move around the globe. Here's an overview of this remarkable transformation:
+        </p>
+        <p id="horse">
+            <span>Horse-Drawn Vehicles (Pre-19th Century):</span> Before the 19th century, transportation relied 
+            primarily on horses and other animals. People used horse-drawn carriages, wagons, and 
+            sleighs for local travel and the transportation of goods.
+        </p>
+        <p id="motor">
+            <span>Motor cycle (Late 19th Century):</span> The late 19th century saw the widespread adoption of bicycles,
+            providing an affordable and efficient means of personal transportation.
+        </p>
+        <p id="car">        
+            <span>Automobiles (Early 20th Century):</span> The development of the automobile in the early 20th century 
+            transformed personal transportation. Henry Ford's assembly line revolutionized production, 
+            making cars more affordable and accessible to the masses.
+        </p>
+        <p id="jet">
+            <span>Jet Aircraft (Mid-20th Century):</span> The introduction of jet propulsion in aviation made air travel 
+            faster and more practical for long distances.
+        
+            <span>Supersonic Aircraft (20th Century):</span> Supersonic passenger aircraft like the Concorde offered ultra-fast
+            transatlantic travel, although they were eventually retired due to economic and environmental concerns.
+        </p>
+        <p>
+            The transportation system has come a long way from relying on horses to encompassing a diverse range 
+            of modes and technologies, including cars, trains, ships, airplanes, and even space travel. This evolution 
+            has not only connected the world but also shaped economies, societies, and cultures in profound ways.
+        </p>
+    </div>
+</div>
+<footer style="padding: 10px;">Made with Pashion from Int-College by solomon kassahun &copy;2023</footer>
+</body>
+</html>
